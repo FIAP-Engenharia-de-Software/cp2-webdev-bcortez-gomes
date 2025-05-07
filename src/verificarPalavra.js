@@ -10,7 +10,13 @@
 // - Remove espaços extras no início e no final da frase antes de realizar a verificação.
 
 function verificarPalavra(frase, palavraBusca) {
-  // TODO: implementar função
+  frase = prompt("Insira uma frase motivacional: ")
+  palavraDeBusca = prompt("Insira uma palavra de busca: ")
+  larguraDaFrase = length(palavraBusca)
+
+  if(larguraDaFrase < 5){
+    console.log("A frase é muito curta")
+  }
 }
 
 //NÃO REMOVA O CÓDIGO ABAIXO
